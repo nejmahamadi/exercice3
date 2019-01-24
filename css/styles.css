@@ -2,3 +2,6 @@ header, main, footer{
     border: 2px solid pink;
 }
 
+header{
+    background-color: blueviolet;
+}
