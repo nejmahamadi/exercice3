@@ -66,6 +66,7 @@ body {
   color: #518494;
   padding: 10px;
   font-size: 160%;
+  border-style: dashed;
 }
 
 .header,
