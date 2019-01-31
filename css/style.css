@@ -1,5 +1,5 @@
 body {
-  margin: 30px;
+  margin: 60px;
 }
 
 .sidebar {
@@ -66,13 +66,13 @@ body {
   color: white;
   padding: 10px;
   font-size: 160%;
-  border-style: dashed;
 }
 
 .header,
 .footer {
   background-color: #151661;
   padding: 60px;
+  margin: 10px;
 }
 
 .header {
