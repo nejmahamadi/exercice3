@@ -30,7 +30,7 @@ body {
   
     .wrapper {
       display: grid;
-      grid-gap: 1em;
+      grid-gap: 3em;
       grid-template-areas:
        "header"
        "sidebar"
@@ -66,13 +66,13 @@ body {
     background-color: rgb(83, 19, 19);
     color:white;
     padding: 10px;
-    font-size: 160%;
+    font-size: 50%;
   }
   
   .header,
   .footer {
     background-color: rgb(21, 22, 97);
-    padding:60px;
+    padding:90px;
     margin:10px;
   }
   .header{

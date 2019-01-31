@@ -40,7 +40,7 @@ body {
 .wrapper {
   display: -ms-grid;
   display: grid;
-  grid-gap: 1em;
+  grid-gap: 3em;
       grid-template-areas: "header" "sidebar" "content" "sidebar2" "footer";
 }
 
@@ -65,13 +65,13 @@ body {
   background-color: #531313;
   color: white;
   padding: 10px;
-  font-size: 160%;
+  font-size: 50%;
 }
 
 .header,
 .footer {
   background-color: #151661;
-  padding: 60px;
+  padding: 90px;
   margin: 10px;
 }
 
