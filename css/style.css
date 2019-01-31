@@ -64,7 +64,6 @@ body {
 .box {
   background-color: #444;
   color: #518494;
-  border-radius: 30px;
   padding: 10px;
   font-size: 150%;
 }
@@ -72,6 +71,7 @@ body {
 .header,
 .footer {
   background-color: #151661;
+  padding: 60px;
 }
 
 .sidebar2 {
