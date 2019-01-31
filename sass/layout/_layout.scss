@@ -59,21 +59,20 @@ body {
         "header  header  header"
               "sidebar content sidebar2"
               "footer  footer  footer";
-              max-width: 600px;
           }
       }
   
   .box {
     background-color: #444;
-    color: #fff;
-    border-radius: 5px;
+    color: rgb(81, 132, 148);
+    border-radius: 30px;
     padding: 10px;
     font-size: 150%; 
   }
   
   .header,
   .footer {
-    background-color: #999;
+    background-color: rgb(21, 22, 97);
   }
   
   .sidebar2 {

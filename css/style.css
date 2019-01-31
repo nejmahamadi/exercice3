@@ -58,21 +58,20 @@ body {
     -ms-grid-columns: 120px auto 120px;
         grid-template-columns: 120px auto 120px;
         grid-template-areas: "header  header  header" "sidebar content sidebar2" "footer  footer  footer";
-    max-width: 600px;
   }
 }
 
 .box {
   background-color: #444;
-  color: #fff;
-  border-radius: 5px;
+  color: #518494;
+  border-radius: 30px;
   padding: 10px;
   font-size: 150%;
 }
 
 .header,
 .footer {
-  background-color: #999;
+  background-color: #151661;
 }
 
 .sidebar2 {
