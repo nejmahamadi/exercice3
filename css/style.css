@@ -75,6 +75,10 @@ body {
   padding: 60px;
 }
 
+.header {
+  background-color: bisque;
+}
+
 .sidebar2 {
   background-color: #926969;
   color: #444;
