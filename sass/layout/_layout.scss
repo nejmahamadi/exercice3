@@ -1,6 +1,6 @@
 
 body {
-    margin: 60px;
+    /*margin: 60px;*/
   }
   .global {
     max-width: 100vw;
@@ -153,6 +153,7 @@ body {
             transform: translateX(0%);
             /*Mettre le contenu en colonne*/				
             flex-direction: column;
+            
             
         }
 
