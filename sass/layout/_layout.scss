@@ -49,6 +49,7 @@ body {
     flex-direction: column;
     justify-content: center;
     overflow-x: hidden; overflow-y: auto;
+    border-radius: 20px;
 }
 
 .menu a {
@@ -147,7 +148,7 @@ body {
         }
                 
         .global {
-            /*Placer à sa potition d'origine*/
+            /*Placer à sa position d'origine*/
             transform: translateX(0%);
             /*Mettre le contenu en colonne*/				
             flex-direction: column;
