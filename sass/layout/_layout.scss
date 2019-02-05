@@ -130,6 +130,7 @@ body {
           "sidebar2 sidebar2"
           "footer   footer";
       }
+      
       }
   
       @media only screen and (min-width: 600px)   {
@@ -141,6 +142,34 @@ body {
               "sidebar content sidebar2"
               "footer  footer  footer";
           }
+          .boutonBurger {
+            display: none
+        }
+                
+        .global {
+            /*Placer à sa potition d'origine*/
+            transform: translateX(0%);
+            /*Mettre le contenu en colonne*/				
+            flex-direction: column;
+        }
+
+        .menu {
+            /*Propriété comme item flex - ne peut s'étirer en hauteur*/
+            flex: 0 0 100%;
+            
+            /*Affichage du menu en rangée*/
+            flex-direction: row;
+            justify-content: space-between;
+        }
+        .menu a {
+            border: none;
+            border-left: 1px solid white;
+            /*Propriété comme item flex - peut s'étirer en largeur*/
+            flex: 1 0 auto;
+        }
+        .menu a:first-child {
+            border-top: none;
+        }
       }
   
   .box {
