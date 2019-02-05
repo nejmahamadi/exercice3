@@ -13,6 +13,7 @@ body {
     /*Effet de transition sur la transformation*/
     transition: transform 1s;
 /*	overflow-x: hidden; */
+
 }
 
 .contenu {
@@ -38,7 +39,7 @@ body {
 }
 
 .menu {
-    background-color: #E84545;
+    background-color: rgb(196, 150, 150);
     text-align: center;
     /*Pour cet exemple, on fixe la largeur du menu à 100% ou 100vw*/
     width: 100vw;
@@ -136,7 +137,7 @@ body {
   
       @media only screen and (min-width: 600px)   {
           .wrapper {
-        grid-gap: 20px;
+              grid-gap: 20px;
               grid-template-columns: 120px auto 120px;
               grid-template-areas:
         "header  header  header"
@@ -152,6 +153,7 @@ body {
             transform: translateX(0%);
             /*Mettre le contenu en colonne*/				
             flex-direction: column;
+            
         }
 
         .menu {
